@@ -1,7 +1,7 @@
 # QQ音乐解密器
 可以解密app中下载的（qmc3，qmc0，qmcflac）文件，python实现
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](https://www.youtoo.ml:30000/patrick/qmc_decoder/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](./LICENSE)
 
 ## 使用方法
 ```
