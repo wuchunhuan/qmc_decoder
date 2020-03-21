@@ -1,11 +1,13 @@
 # QQ音乐解密器
 可以解密app中下载的（qmc3，qmc0，qmcflac）文件，python实现
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](./LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-red)](./LICENSE)
+
+![Python Version](https://img.shields.io/badge/Python-V3-blue)
 
 ## 使用方法
 ```
-path/to/qmc_decoder -m -o output_path input_path
+python3 path/to/qmc_decoder -m -o output_path input_path
 ```
 ### 参数
 - `-m` 使用多进程同时解密，可以利用多核CPU加速解密，可选参数
