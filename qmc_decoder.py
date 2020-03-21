@@ -284,10 +284,10 @@ class QMCDecoder:
 
             process_pool.clear()
             rf = open(file, 'rb')
-            #RawArray不带同步机制（锁）
+            # RawArray不带同步机制（锁）
             sa = mp.RawArray('B', os.path.getsize(file))
             # sa = mp.RawArray('B', bytearray(rf.read()))
-            #Array默认默认带同步机制（锁）
+            # Array默认默认带同步机制（锁）
             # sa = mp.Array('B', os.path.getsize(file))
             rf.close()
 
